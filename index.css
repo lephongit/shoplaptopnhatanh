@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#imghead{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    background-color: rgb(22, 177, 234);
+    margin: 0;
+}
+.menu ul{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#logo{
+    width: 100px;
+    height: auto;
+}
+.menu #search{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.menu img{
+    width: 15%;
+    height: 20px;
+    padding: 10px;
+    float: left;
+}
+.menu li{
+    list-style-type: none;
+    margin: auto;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 10px;
+}
+.list-menu{
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+.list-menu ul{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.list-menu li{
+    margin: auto;
+    list-style-type: none;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+}
+.list-menu a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+.list-menu a:hover {
+    color: red;
+}
+main{
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.menu-vertical{
+    float: left;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    height: 300px;
+    background-color: gainsboro;
+}
+.menu-vertical ul{
+    display: block;
+    background-color: white;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 120px;
+}
+.menu-vertical li{
+    list-style-type: none;
+    color: rgb(41, 41, 41);
+    font-size: 10px;
+    margin-top: 20px;
+}
+.section{
+    float: left;
+    width: 70%;
+    height: 300px;
+    background-color: gainsboro;
+    padding: 10px 0 10px 0;
+}
+.section #mainbg img{
+    width: 410px;
+    height: auto;
+}
+.section #mainbg{
+    float: left;
+    width: 60%;
+    height: 150px;
+}
+.section #extrabg img{
+    width: 200px;
+    height: auto;
+}
+.section #extrabg {
+    float: left;
+    width: 40%;
+}
+.product2 img{
+    width: calc(33.33 - 10px);
+    height: 103px;
+}
